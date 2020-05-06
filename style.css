@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap)
+@import url(https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Share+Tech+Mono&display=swap)
 
 *,*::before,*::after {
   box-sizing: border-box;
@@ -9,6 +9,7 @@
 }
 
 html {
+  font-family: 'Anonymous Pro', monospace;
   background: var(--color-dark-green);
   background-size: cover;
   color: var(--color-white);
