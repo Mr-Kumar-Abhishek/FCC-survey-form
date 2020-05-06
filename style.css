@@ -3,11 +3,13 @@
 }
 :root {
 	--color-dark-green: #1b3221;
+	--color-white: #FFF;
 }
 
 html {
   background: var(--color-dark-green);
   background-size: cover;
+  color: var(--color-white);
 }
 
 .text-center {
