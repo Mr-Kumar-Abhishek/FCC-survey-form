@@ -1,9 +1,13 @@
 *,*::before,*::after {
   box-sizing: border-box;
 }
+:root {
+	--color-dark-green: #1b3221;
+}
 
 html {
-	background: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background: var(--color-dark-green);
+  background-size: cover;
 }
 
 .text-center {
