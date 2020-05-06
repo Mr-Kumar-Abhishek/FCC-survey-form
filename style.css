@@ -6,6 +6,7 @@
 :root {
 	--color-dark-green: #1b3221;
 	--color-white: #FFF;
+	--color-dark-green-alpha: #1b3223cc;
 }
 
 html {
@@ -26,6 +27,12 @@ html {
 	text-align: center;
 }
 
+form {
+	background: var(--color-dark-green-alpha);
+	border-radius: 10px;
+	padding: 20px;
+}
+
 .container {
 	width: 100%;
 	margin-top: 1%;
@@ -37,4 +44,10 @@ html {
 .header {
 	padding: 0px 15px;
 	margin-bottom: 20px;
+}
+
+@media (min-width: 480px) {
+	.container{
+		width: 540px;
+	}
 }
