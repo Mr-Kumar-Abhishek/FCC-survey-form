@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+	background: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+
 .text-center {
 	text-align: center;
 }
