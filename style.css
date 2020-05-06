@@ -7,6 +7,7 @@
 	--color-dark-green: #1b3221;
 	--color-white: #FFF;
 	--color-dark-green-alpha: #1b3223cc;
+	--color-border-grey: #ced4da;
 }
 
 html {
@@ -49,6 +50,9 @@ label {
 	padding-bottom: 2px;
 	height: 35px;
 	border-radius: 8px;
+	background-color: var(--color-white);
+	border: 1px solid var(--color-border-grey);
+	
 }
 
 .container {
