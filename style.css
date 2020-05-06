@@ -40,6 +40,15 @@ label {
 	margin-bottom: 10px;
 }
 
+.form-item{
+	display: block;
+	width: 100%;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
 .container {
 	width: 100%;
 	margin-top: 1%;
