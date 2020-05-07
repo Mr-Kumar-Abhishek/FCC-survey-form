@@ -8,6 +8,7 @@
 	--color-white: #FFF;
 	--color-dark-green-alpha: #1b3223cc;
 	--color-border-grey: #ced4da;
+	--color-light-grey: #e4e4e4;
 	--color-fonts: #495057;
 	--color-dark-blue: #1b1b32;
 }
@@ -117,6 +118,12 @@ textarea {
     color: inherit;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.hint {
+	margin-left: 3px;
+    font-size: 20px;
+    color: var(--color-light-grey);
 }
 
 @media (min-width: 540px) {
