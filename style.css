@@ -59,6 +59,14 @@ h1, p, legend {
 	margin-bottom: 20px;
 }
 
+textarea {
+	width: 100%;
+	padding: 15px;
+	min-height: 100px;
+	resize: vertical;
+	border-radius: 8px;
+}
+
 .form-item{
 	display: block;
 	width: 100%;
