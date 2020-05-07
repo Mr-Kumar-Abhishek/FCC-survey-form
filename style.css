@@ -83,6 +83,12 @@ input, select, textarea, button {
 	margin-bottom: 20px;
 }
 
+.radio-button, .checkbox-button {
+    display: inline-block;
+    margin-right: 12px;
+    min-height: 20px;
+    min-width: 20px;
+}
 
 @media (min-width: 480px) {
 	.container{
