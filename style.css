@@ -55,6 +55,10 @@ p, legend {
 	font-weight: inherit;
 }
 
+h1, p, legend {
+	margin-bottom: 20px;
+}
+
 .form-item{
 	display: block;
 	width: 100%;
