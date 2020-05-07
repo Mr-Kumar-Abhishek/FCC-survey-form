@@ -49,6 +49,12 @@ input, select, textarea, button {
 	line-height: inherit;
 }
 
+p, legend {
+	font-size: 24px;
+	font-family: inherit;
+	font-weight: inherit;
+}
+
 .form-item{
 	display: block;
 	width: 100%;
