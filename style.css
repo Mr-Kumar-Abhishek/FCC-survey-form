@@ -9,6 +9,7 @@
 	--color-dark-green-alpha: #1b3223cc;
 	--color-border-grey: #ced4da;
 	--color-fonts: #495057;
+	--color-dark-blue: #1b1b32;
 }
 
 html {
@@ -106,6 +107,16 @@ textarea {
     margin-right: 12px;
     min-height: 20px;
     min-width: 20px;
+}
+
+.submit-button {
+	display: block;
+    width: 100%;
+    padding: 15px;
+    background: var(--color-dark-blue);
+    color: inherit;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 @media (min-width: 540px) {
